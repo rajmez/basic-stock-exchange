@@ -77,10 +77,6 @@ pytest -q
 - Matching logic is monolithic and can be refactored for readability and maintainability.
 - Input validation and error handling are minimal.
 
-## Suggested Next Improvements
+## Next Improvements
 
-1. Add complete market-order support.
-2. Persist trades/orders (database or file-backed storage).
-3. Emit and store a `Trade` record on every fill.
-4. Refactor matching into smaller helper functions.
-5. Expand tests for edge cases and invalid inputs.
+- Add complete market-order support.
